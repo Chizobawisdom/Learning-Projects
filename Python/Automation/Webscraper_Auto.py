@@ -15,7 +15,7 @@ now = datetime.now().strftime("%d-%m-%Y")#current date in dd-mm-yyyy format
 website = "https://www.thesun.co.uk/sport/football/"
 path = "C:/Users/AH0514/OneDrive - Mubea/Desktop/chromedriver-win64/chromedriver.exe"
 
-#headless mode ie without opening a browser window
+#headless mode (ie without opening a browser window)
 options = Options()
 options.add_argument("--headless=new")
 
